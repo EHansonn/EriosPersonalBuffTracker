@@ -1,0 +1,136 @@
+<GuiXml>
+    <Controls>
+
+
+
+        <TopLevelControl name="MyPersBuffs" mouseEnabled="true" movable="true" clampedToScreen="true" hidden="true">
+            <Dimensions x="250" y="400" />
+            <Anchor point="BOTTOM" relativeTo="GuiRoot" relativePoint="CENTER"/>
+            <OnMoveStop>
+                EPBT.buff1Save()
+            </OnMoveStop>
+            <Controls>
+
+                <Backdrop name="$(parent)BG" inherits="ZO_DefaultBackdrop" />
+
+                <Label name="$(parent)WindowTitle" font="ZoFontAnnounceMedium" text="|cFFFF00temp|r">
+                    <Anchor point="TOPLEFT" relativeTo="$(parent)" relativePoint="TOPLEFT" />
+                </Label>
+
+                <Texture name="$(parent)TopDivider" textureFile="/esoui/art/miscellaneous/horizontaldivider.dds" tier="HIGH">
+                    <Dimensions x="250" y="4"/>
+                    <Anchor point="TOP" relativeTo="$(parent)" offsetY="38" />
+                </Texture>
+
+                <Label name="$(parent)p1" font="ZoFontGameSmall" text="">
+                    <Anchor point="TOPLEFT" relativeTo="$(parent)" relativePoint="TOPLEFT" offsetY="40" />
+                </Label>
+
+                <Label name="$(parent)p2" font="ZoFontGameSmall" text="">
+                    <Anchor point="TOPLEFT" relativeTo="$(parent)" relativePoint="TOPLEFT" offsetY="55" />
+                </Label>
+
+                <Label name="$(parent)p3" font="ZoFontGameSmall" text="">
+                    <Anchor point="TOPLEFT" relativeTo="$(parent)" relativePoint="TOPLEFT" offsetY="70" />
+                </Label>
+
+                <Label name="$(parent)p4" font="ZoFontGameSmall" text="">
+                    <Anchor point="TOPLEFT" relativeTo="$(parent)" relativePoint="TOPLEFT" offsetY="85" />
+                </Label>
+
+                <Label name="$(parent)p5" font="ZoFontGameSmall" text="">
+                    <Anchor point="TOPLEFT" relativeTo="$(parent)" relativePoint="TOPLEFT" offsetY="100" />
+                </Label>
+                <Label name="$(parent)p6" font="ZoFontGameSmall" text="">
+                    <Anchor point="TOPLEFT" relativeTo="$(parent)" relativePoint="TOPLEFT" offsetY="115" />
+                </Label>
+                <Label name="$(parent)p7" font="ZoFontGameSmall" text="">
+                    <Anchor point="TOPLEFT" relativeTo="$(parent)" relativePoint="TOPLEFT" offsetY="130" />
+                </Label>
+                <Label name="$(parent)p8" font="ZoFontGameSmall" text="">
+                    <Anchor point="TOPLEFT" relativeTo="$(parent)" relativePoint="TOPLEFT" offsetY="145" />
+                </Label>
+                <Label name="$(parent)p9" font="ZoFontGameSmall" text="">
+                    <Anchor point="TOPLEFT" relativeTo="$(parent)" relativePoint="TOPLEFT" offsetY="160" />
+                </Label>
+                <Label name="$(parent)p10" font="ZoFontGameSmall" text="">
+                    <Anchor point="TOPLEFT" relativeTo="$(parent)" relativePoint="TOPLEFT" offsetY="175" />
+                </Label>
+                <Label name="$(parent)p11" font="ZoFontGameSmall" text="">
+                    <Anchor point="TOPLEFT" relativeTo="$(parent)" relativePoint="TOPLEFT" offsetY="190" />
+                </Label>
+                <Label name="$(parent)p12" font="ZoFontGameSmall" text="">
+                    <Anchor point="TOPLEFT" relativeTo="$(parent)" relativePoint="TOPLEFT" offsetY="205" />
+                </Label>
+
+            </Controls>
+        </TopLevelControl>
+    </Controls>
+    <Controls>
+
+
+
+        <TopLevelControl name="MyPersBuffs2" mouseEnabled="true" movable="true" clampedToScreen="true" hidden="true">
+            <Dimensions x="250" y="400" />
+            <Anchor point="BOTTOM" offsetx="200" relativeTo="GuiRoot" relativePoint="CENTER"/>
+            <OnMoveStop>
+                EPBT.buff2Save()
+            </OnMoveStop>
+            <Controls>
+
+                <Backdrop name="$(parent)BG" inherits="ZO_DefaultBackdrop" />
+
+                <Label name="$(parent)WindowTitle" font="ZoFontAnnounceMedium" text="|cFFFF00temp|r">
+                    <Anchor point="TOPLEFT" relativeTo="$(parent)" relativePoint="TOPLEFT" />
+                </Label>
+
+                <Texture name="$(parent)TopDivider" textureFile="/esoui/art/miscellaneous/horizontaldivider.dds" tier="HIGH">
+                    <Dimensions x="250" y="4"/>
+                    <Anchor point="TOP" relativeTo="$(parent)" offsetY="38" />
+                </Texture>
+
+                <Label name="$(parent)p1" font="ZoFontGameSmall" text="">
+                    <Anchor point="TOPLEFT" relativeTo="$(parent)" relativePoint="TOPLEFT" offsetY="40" />
+                </Label>
+
+                <Label name="$(parent)p2" font="ZoFontGameSmall" text="">
+                    <Anchor point="TOPLEFT" relativeTo="$(parent)" relativePoint="TOPLEFT" offsetY="55" />
+                </Label>
+
+                <Label name="$(parent)p3" font="ZoFontGameSmall" text="">
+                    <Anchor point="TOPLEFT" relativeTo="$(parent)" relativePoint="TOPLEFT" offsetY="70" />
+                </Label>
+
+                <Label name="$(parent)p4" font="ZoFontGameSmall" text="">
+                    <Anchor point="TOPLEFT" relativeTo="$(parent)" relativePoint="TOPLEFT" offsetY="85" />
+                </Label>
+
+                <Label name="$(parent)p5" font="ZoFontGameSmall" text="">
+                    <Anchor point="TOPLEFT" relativeTo="$(parent)" relativePoint="TOPLEFT" offsetY="100" />
+                </Label>
+                <Label name="$(parent)p6" font="ZoFontGameSmall" text="">
+                    <Anchor point="TOPLEFT" relativeTo="$(parent)" relativePoint="TOPLEFT" offsetY="115" />
+                </Label>
+                <Label name="$(parent)p7" font="ZoFontGameSmall" text="">
+                    <Anchor point="TOPLEFT" relativeTo="$(parent)" relativePoint="TOPLEFT" offsetY="130" />
+                </Label>
+                <Label name="$(parent)p8" font="ZoFontGameSmall" text="">
+                    <Anchor point="TOPLEFT" relativeTo="$(parent)" relativePoint="TOPLEFT" offsetY="145" />
+                </Label>
+                <Label name="$(parent)p9" font="ZoFontGameSmall" text="">
+                    <Anchor point="TOPLEFT" relativeTo="$(parent)" relativePoint="TOPLEFT" offsetY="160" />
+                </Label>
+                <Label name="$(parent)p10" font="ZoFontGameSmall" text="">
+                    <Anchor point="TOPLEFT" relativeTo="$(parent)" relativePoint="TOPLEFT" offsetY="175" />
+                </Label>
+                <Label name="$(parent)p11" font="ZoFontGameSmall" text="">
+                    <Anchor point="TOPLEFT" relativeTo="$(parent)" relativePoint="TOPLEFT" offsetY="190" />
+                </Label>
+                <Label name="$(parent)p12" font="ZoFontGameSmall" text="">
+                    <Anchor point="TOPLEFT" relativeTo="$(parent)" relativePoint="TOPLEFT" offsetY="205" />
+                </Label>
+
+            </Controls>
+        </TopLevelControl>
+    </Controls>
+</GuiXml>
